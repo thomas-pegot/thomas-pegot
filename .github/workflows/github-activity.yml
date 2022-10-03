@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: thomas-pegot.github.io/github-activity-readme@commit-username-and-email
+      - uses: DenverCodeOne/github-activity-readme@commit-username-and-email
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
